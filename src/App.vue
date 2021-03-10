@@ -1,11 +1,10 @@
 <template>
-  <v-app>
+<v-app class="app">
  <v-app-bar
       color="primary accent-4"
-      dense
+      app
       dark
     >
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
       <v-toolbar-title>Hospital VuenaVista</v-toolbar-title>
 
@@ -19,7 +18,6 @@
         <v-icon class="mr-2">mdi-help</v-icon>
         About
       </v-btn>
-
       <v-btn text class="mx-3" to="/login">
         <v-icon class="mr-2">mdi-login</v-icon>
         Login
@@ -30,6 +28,10 @@
     <v-main>
       <router-view></router-view>
     </v-main>
+
+    <v-footer class="footer">
+      Algo
+    </v-footer>
   </v-app>
 </template>
 
@@ -47,3 +49,9 @@ export default {
   }),
 }; 
 </script>
+
+<style scoped>
+
+
+
+</style>
