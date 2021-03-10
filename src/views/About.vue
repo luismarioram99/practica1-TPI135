@@ -18,7 +18,20 @@
         Integrantes
       </v-card-title>
       <v-timeline align-top dense>
-        <v-timeline-item> </v-timeline-item>
+        <v-timeline-item color="#fb3640">
+          <p><strong>Jose Carlos Ramirez Peralta</strong></p>
+          <p>RP18010</p>
+        </v-timeline-item>
+
+        <v-timeline-item color="#0a2463">
+          <p><strong>Luis Mario Ramirez Peralta</strong></p>
+          <p>RP18011</p>
+        </v-timeline-item>
+
+        <v-timeline-item color="#247BA0">
+          <p><strong>Francisco Javier Morales Ayala</strong></p>
+          <p>ma13095</p>
+        </v-timeline-item>
       </v-timeline>
     </v-card>
   </v-container>
