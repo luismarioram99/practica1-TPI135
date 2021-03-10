@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home mb-5">
     <v-container fluid class="px-0 py-0">
       <v-parallax
         class="px-0 py-0 elevation-15"
