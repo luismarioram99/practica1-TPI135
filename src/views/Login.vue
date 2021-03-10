@@ -1,5 +1,5 @@
 <template>
-  <v-layout align-center justify-center>
+  <v-layout align-center justify-center style="margin-top:200px">
     <v-flex xs12 sm8 md6 lg5 xl4>
       <v-card>
         <v-toolbar dark color="blue darken-3">
@@ -9,7 +9,7 @@
           <v-text-field
             v-model="email"
             autofocus
-            color="accent"
+            color="#247BA0"
             label="Email"
             required
           >
@@ -17,7 +17,7 @@
           <v-text-field
             v-model="password"
             type="password"
-            color="accent"
+            color="#247BA0"
             label="Contraseña"
             required
           >
@@ -52,3 +52,4 @@ export default {
 </script>
 
 <style></style>
+
