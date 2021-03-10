@@ -11,40 +11,20 @@
 
       <v-spacer></v-spacer>
 
-      <v-btn text class="mx-3">
+      <v-btn text class="mx-3" to="/">
+        <v-icon class="mr-2">mdi-home</v-icon>
+        Inicio
+      </v-btn>
+      <v-btn text class="mx-3" to="/about">
         <v-icon class="mr-2">mdi-help</v-icon>
         About
       </v-btn>
 
-      <v-btn text class="mx-3">
+      <v-btn text class="mx-3" to="/login">
         <v-icon class="mr-2">mdi-login</v-icon>
         Login
       </v-btn>
-
-      <v-menu
-        left
-        bottom
-      >
-        <template v-slot:activator="{ on, attrs }">
-          <v-btn
-            icon
-            v-bind="attrs"
-            v-on="on"
-          >
-            <v-icon>mdi-dots-vertical</v-icon>
-          </v-btn>
-        </template>
-
-        <v-list>
-          <v-list-item
-            v-for="n in 5"
-            :key="n"
-            @click="() => {}"
-          >
-            <v-list-item-title>Option {{ n }}</v-list-item-title>
-          </v-list-item>
-        </v-list>
-      </v-menu>
+      
     </v-app-bar>
 
     <v-main>
@@ -60,7 +40,6 @@ export default {
   name: 'App',
 
   components: {
-//    HelloWorld,
   },
 
   data: () => ({
